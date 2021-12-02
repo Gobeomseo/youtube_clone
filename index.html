@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/931f18199a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Youtube Mobile</title>
+</head>
+
+<body>
+    <header>
+        <!-- Header -->
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <iframe width="930" height="523" src="https://www.youtube.com/embed/I9ya3dW6tHk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">
+
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#창모</li>
+                    <li>#CHANGMO</li>
+                    <li>#UNDERGROUNDROCKSTAR</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        창모 (CHANGMO) - 모래시계 (Hourglass) [Official Music Video]
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i></button>
+                </div>
+                <span class="views">조회수 566,586회 최초 공개: 2021. 11. 11.</span>
+            </div>
+            <!-- Actions -->
+            <ul class="actions">
+                <li>
+                    <button onclick="clickBtn('당신이 좋다고 하니까 저도 좋네요.')"><i
+                            class="active fas fa-thumbs-up"></i>1.5만</button>
+                </li>
+                <li>
+                    <button onclick="clickBtn('당신이 싫다고 하니까 정말 속상하네요.')"><i class="fas fa-thumbs-down"></i>0</button>
+                </li>
+                <li>
+                    <button onclick="clickBtn('공유기능은 아직 구현이 안됬어요.')"><i class="fas fa-share"></i>공유</button>
+                </li>
+                <li>
+                    <button onclick="clickBtn('저장은 마음속에만 해주세요.')"><i class="fas fa-plus"></i>저장</button>
+                </li>
+                <li>
+                    <button onclick="clickBtn('신고는 112에 부탁드려요.')"><i class="fab fa-font-awesome-flag"></i>신고</button>
+                </li>
+            </ul>
+            <!-- Channel Dscription -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="logo.jpg" alt="">
+                    <div class="info">
+                        <span class="name">Ambition Music</span>
+                        <span class="subscribers">100만 구독자</span>
+                    </div>
+                </div>
+                <button onclick="clickBtn('구독해 주셔서 감사합니다.')" class="subscribe">subscribe</button>
+            </div>
+        </section>
+
+        <!-- Up Next -->
+        <section class="upNext">
+            <span class="title">다음 영상</span>
+            <ul>
+                <li class="item">
+                    <a href="maestro.html">
+                        <div class="img"><img src="maestro.jpg" alt=""></div>
+                    </a>
+                    <div class="info">
+                        <a href="maestro.html">
+                            <span class="title">창모 - 마에스트로 [M/V]</span>
+                        </a>
+                        <span class="name">창모</span>
+                        <span class="views">1245만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <a href="paranoid.html">
+                        <div class="img"><img src="paranoid.jpg" alt=""></div>
+                    </a>
+                    <div class="info">
+                        <a href="paranoid.html">
+                            <span class="title">ASH ISLAND - Paranoid [Official Music Video]</span>
+                        </a>
+                        <span class="name">ASH ISLAND</span>
+                        <span class="views">840만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <a href="onemorerolie.html">
+                        <div class="img"><img src="onemorerollie.jpg" alt=""></div>
+                    </a>
+                    <div class="info">
+                        <a href="onemorerolie.html">
+                            <span class="title">CHANGMO - One More Rollie (Feat. 김효은 & Hash Swan) [M/V]</span>
+                        </a>
+                        <span class="name">창모</span>
+                        <span class="views">697만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
